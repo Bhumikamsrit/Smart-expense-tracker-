@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Expense Tracker</h1>
+        <div class="budget-section">
+            <label for="budget">Set Budget:</label>
+            <input type="number" id="budget" placeholder="Enter your budget">
+            <button onclick="setBudget()">Set Budget</button>
+            <p id="budgetDisplay">Budget: $0</p>
+        </div>
+
+        <div class="expense-section">
+            <h2>Add Expense</h2>
+            <label for="expenseName">Expense Name:</label>
+            <input type="text" id="expenseName" placeholder="Expense name">
+            
+            <label for="expenseAmount">Amount:</label>
+            <input type="number" id="expenseAmount" placeholder="Expense amount">
+
+            <button onclick="addExpense()">Add Expense</button>
+
+            <h3>Expenses</h3>
+            <ul id="expenseList"></ul>
+
+            <h3>Total Expense: $<span id="totalExpense">0</span></h3>
+            <h3>Remaining Balance: $<span id="remainingBalance">0</span></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+xleftcol {
+   float: left;
+   width: 33%;
+   background:#809900;
+}
+.xmiddlecol {
+   float: left;
+   width: 34%;
+   background:#eff2df;
+}
+p {
+  color:purple;
+  margin-left:20px;
+}
+div{
+  color:purple;
+  font-size:16px;
+  background-color:#FF6633;
+}
